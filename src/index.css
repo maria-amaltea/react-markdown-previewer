@@ -10,4 +10,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background-color: blanchedalmond;  
+}
+
+.container-fluid {
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  height:10vh;
+  background-color: black;
+  padding: .5rem 1rem;
+}
+#editor{
+  height:30vh;
+  background-color: darkslategrey;
+  color: greenyellow;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  padding: .5rem 1rem;
+}
+
+#preview{
+  height:60vh;
+  background-color: #f0f0f0;
+  padding: .5rem 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+h1{
+  color: silver;
 }
